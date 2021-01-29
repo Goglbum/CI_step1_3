@@ -20,7 +20,7 @@ class TestApi {
         // Проверки
         .then()
             .statusCode(200)
-            .body("data", equalTo("some data1"))
+            .body("data", equalTo("some data"))
         ;
     }
 }
